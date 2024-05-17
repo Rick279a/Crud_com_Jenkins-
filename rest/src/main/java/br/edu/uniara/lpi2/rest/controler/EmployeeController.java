@@ -76,6 +76,6 @@ public class EmployeeController {
             return ResponseEntity.notFound().build();
         }
         repository.deleteById(id);
-        return ResponseEntity.ok(id + "was removed");
+        return ResponseEntity.ok(id + " was removed");
     }
 }
